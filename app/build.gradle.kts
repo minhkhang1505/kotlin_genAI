@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.nguyenminhkhang.genai"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.nguyenminhkhang.genai"
@@ -40,6 +40,13 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.runtime.livedata)
+    val lifecycle_version = "2.8.7"
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_version")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
