@@ -1,5 +1,7 @@
-package com.nguyenminhkhang.genai
+package com.nguyenminhkhang.genai.data.api
 
+import com.nguyenminhkhang.genai.data.model.request.CohereCreateContentRequest
+import com.nguyenminhkhang.genai.data.model.response.CohereCreateContentResponse
 import retrofit2.http.Body
 import retrofit2.http.Headers
 import retrofit2.http.POST

@@ -1,4 +1,4 @@
-package com.nguyenminhkhang.genai.screen
+package com.nguyenminhkhang.genai.ui.screen.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

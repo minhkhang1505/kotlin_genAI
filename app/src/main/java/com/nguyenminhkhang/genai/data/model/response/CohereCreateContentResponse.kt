@@ -1,4 +1,4 @@
-package com.nguyenminhkhang.genai
+package com.nguyenminhkhang.genai.data.model.response
 
 data class CohereCreateContentResponse(
     val generations: List<Generation>

@@ -1,4 +1,4 @@
-package com.nguyenminhkhang.genai
+package com.nguyenminhkhang.genai.data.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

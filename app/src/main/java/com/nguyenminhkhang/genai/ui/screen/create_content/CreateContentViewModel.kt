@@ -1,9 +1,11 @@
-package com.nguyenminhkhang.genai
+package com.nguyenminhkhang.genai.ui.screen.create_content
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.nguyenminhkhang.genai.data.api.RetrofitClient
+import com.nguyenminhkhang.genai.data.model.request.CohereCreateContentRequest
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

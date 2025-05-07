@@ -1,4 +1,4 @@
-package com.nguyenminhkhang.genai
+package com.nguyenminhkhang.genai.data.model.request
 
 data class CohereCreateContentRequest(
     val model: String = "command",
