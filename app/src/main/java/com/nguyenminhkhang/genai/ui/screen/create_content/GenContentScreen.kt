@@ -30,11 +30,6 @@ fun TextGenerationScreen(viewModel: CreateContentViewModel = viewModel()) {
 
     val scrollState = rememberScrollState()
     Scaffold(
-//        topBar = {
-//            TopAppBar(
-//                title = { Text("Create content", color = Color.Black) },
-//            )
-//        }
     ) {
         Box(
             modifier = Modifier.fillMaxSize().padding(it)

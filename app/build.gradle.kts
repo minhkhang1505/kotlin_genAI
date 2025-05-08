@@ -50,6 +50,7 @@ dependencies {
 
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
 
+    implementation("com.airbnb.android:lottie-compose:6.0.0") // Lottie animation this animation is used for creating voice screen
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

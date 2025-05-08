@@ -5,8 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.nguyenminhkhang.genai.ui.theme.GenAITheme
-import com.nguyenminhkhang.genai.screen.TextGenerationScreen
 import com.nguyenminhkhang.genai.ui.screen.create_content.CreateContentViewModel
+import com.nguyenminhkhang.genai.ui.screen.create_content.TextGenerationScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
